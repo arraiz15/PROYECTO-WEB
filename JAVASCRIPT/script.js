@@ -35,3 +35,4 @@ window.onload = function(){
  setInterval(slide_show, 5000);
 }
 
+// final

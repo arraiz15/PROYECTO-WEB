@@ -4,11 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>plastic world</title>
+    <meta name="description"
+        content="Pagina web sobre moda donde podras descubrir las ultimas colecciones y servicios disponibles">
+    <meta name="keywords" content="moda, costura, patronaje">
+    <meta name="author" content="FCO JAVIER CANDILEJO ARRAIZ">
+    
+
+    <title>LocoSoul</title>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../CSS/style.css">
-
 </head>
+
 
 <body>
 
@@ -16,8 +22,7 @@
     <header>
         <div class="header">
             <div class="header__img">
-                <a href="../HTML/index.html"><img class="img__header"
-                        src="../IMAGENES/LOGOS Y FOTOS LOCAS/recortado.jpg" alt=""></a>
+                <a href="../HTML/index.html" title="Ir a inciio" target="_self"><img class="img__header" src="../IMAGENES/logo.JPG" alt=""></a>
             </div>
             <div class="header__hamburguesa">
                 <div class="hamburger">
@@ -27,10 +32,10 @@
                 </div>
                 <nav class="menuppal">
                     <ul>
-                        <li><a href="../HTML/index.html">Inicio</a></li>
-                        <li><a href="../HTML/colecciones.html">Colecciones</a></li>
-                        <li><a href="../HTML/sobremi.html">Loco Soul</a></li>
-                        <li><a href="../HTML/servicios.html">Servicios</a></li>
+                        <li><a href="../HTML/index.html" title="ir a inicio">Inicio</a></li>
+                        <li><a href="../HTML/colecciones.html" title="ir a colecciones">Colecciones</a></li>
+                        <li><a href="../HTML/sobremi.html" title="ir a sobre mi">Sobre Loco Soul</a></li>
+                        <li><a href="../HTML/servicios.html" title="ir a servicios">Servicios</a></li>
                     </ul>
                 </nav>
 
@@ -38,11 +43,11 @@
 
         </div>
         <div class="subbarra">
-            <li>
-                <ul><a href="../HTML/index.html">Inicio</a></ul>
-                <ul><a href="../HTML/colecciones.html">Colecciones</a></ul>
-                <ul><a href="../HTML/sobremi.html"> Loco Soul</a></ul>
-                <ul><a href="../HTML/servicios.html">Servicios</a></ul>
+            <li class="inicio">
+                <a href="../HTML/index.html" title="ir a inicio">Inicio</a>
+                <a href="../HTML/colecciones.html" title="ir a la ventana colecciones">Colecciones</a>
+                <a href="../HTML/sobremi.html" title="ir a la ventana sobre mi"> Sobre Loco Soul</a>
+                <a href="../HTML/servicios.html" title="ir a la ventana servicios">Servicios</a>
             </li>
         </div>
     </header>
@@ -118,46 +123,58 @@
         </div>
 
     </main>
-   <!-- footer -->
-   <footer>
-    <div class="footer">
-        <div class="contacto">
-            <div class="div__contacto">
-                <img class="icono" src="../IMAGENES/phone_icon-icons.com_48251.png" alt="telefono">
-                <h3>+34 634 997 162</h3>
+    <!-- footer -->
+    <footer>
+        <div class="footer">
+            <div class="contacto">
+                <div class="div__contacto">
+                    <img class="icono" src="../IMAGENES/Captura de pantalla 2024-04-15 214926.png" alt="telefono" loading="lazy">
+                    <h1>+34 634 997 162</h1>
+                </div>
+                <div class="div__contacto">
+                    <img class="icono" src="../IMAGENES/Captura de pantalla 2024-04-15 214943.png" alt="email" loading="lazy">
+                    <h1>locoosoul@gmail.com</h1>
+                </div>
+                <div class="div__contacto">
+                    <img class="icono" src="../IMAGENES/Captura de pantalla 2024-04-15 215014.png" alt="localizacion" loading="lazy">
+                    <h1>C/Sta maria del reposo Nº14 2ºB</h1>
+                </div>
+
+
             </div>
-            <div class="div__contacto">
-                <img class="icono" src="../IMAGENES/google_mail_gmail_logo_icon_159346.png" alt="contacto">
-                <h3>locoosoul@gmail.com</h3>
+            <div class="footer__texto">
+                <h1>LOCO SOUL</h1>
+                <p>Prendas locas con mucho soul</p>
             </div>
-            <div class="div__contacto">
-                <img class="icono" src="../IMAGENES/direction_gps_location_map_maps_navigation_pin_icon_123198.png"
-                    alt="ubicacion">
-                <h3>c\ Sta maria del reposo Nº14 2ºB</h3>
+            <div class="redes">
+
+                <h1> ¡Síguenos!</h1>
+
+                <div class="enlaces">
+                    <a target="https://www.tiktok.com/@locoosoul" href="https://www.tiktok.com/@locoosoul" title="ir a tiktok" target="_blank"> <img
+                            class="icono" src="../IMAGENES/Captura de pantalla 2024-04-15 222534.png" alt="tiktok"></a>
+                    <a target="https://twitter.com/locoosoul" href="https://twitter.com/locoosoul" title="ir a twitter" target="_blank"> <img class="icono"
+                            src="../IMAGENES/Captura de pantalla 2024-04-15 222604.png" alt="twitter"></a>
+                    <a target="https://www.instagram.com/locoosoul/" href="https://www.instagram.com/locoosoul/" title="ir a instagram" target="_blank"> <img
+                            class="icono" src="../IMAGENES/Captura de pantalla 2024-04-15 223652.png"
+                            alt="instagram"></a>
+                </div>
+            </div>
+            <div class="formulario">
+                <form action="locosoul" method="post">
+                    <label for="email">Introduce tu correo</label>
+                <input type="text" name="nombre" size="40" placeholder="Suscribete a nuestra Newsletter" class="email">
+            </form>
+                <h1>
+                    Suscribirme
+                </h1>
             </div>
 
 
         </div>
-        <div class="footer__texto">
-            <h3>LOCO SOUL</h3>
-            <p>Prendas locas con mucho soul</p>
-        </div>
-        <div class="redes">
-            <div class="siguenos">
-                <h1>SIGUENOS</h1>
-            </div>
-            <br>
-            <a target="https://www.tiktok.com/@locoosoul" href="https://www.tiktok.com/@locoosoul"> <img
-                class="icono1" src="../IMAGENES/tiktok_logo_icon_144802.png" alt="tiktok"></a>
-        <a target="https://twitter.com/locoosoul" href="https://twitter.com/locoosoul"> <img class="icono2"
-                src="../IMAGENES/twitter_x_new_logo_x_rounded_icon_256078.png" alt="twitter"></a>
-        <a target="https://www.instagram.com/locoosoul/" href="https://www.instagram.com/locoosoul/"> <img
-                class="icono3" src="../IMAGENES/3721672-instagram_108066.png" alt="instagram"></a>
-        </div>
-    </div>
 
-</footer>
-<!-- footer -->
+    </footer>
+    <!-- footer -->
 <script src="../JAVASCRIPT/script.js"></script>
 </body>
 </html>
